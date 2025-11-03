@@ -5,11 +5,10 @@ baseurl: ""
 markdown: kramdown
 highlighter: rouge
 theme: minima
-remote_theme: jekyll/minima
-plugins:
-- jekyll-remote-theme
 minima:
   skin: dark
+plugins:
+- jekyll-remote-theme
 exclude:
   - Gemfile
   - Gemfile.lock
